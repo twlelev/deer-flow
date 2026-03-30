@@ -36,6 +36,12 @@
       ],
       "env": {},
       "description": "PostgreSQL database access"
+    },
+    "comfyui": {
+      "enabled": false,
+      "type": "http",
+      "url": "http://localhost:8000/mcp/",
+      "description": "ComfyUI workflow discovery and execution - supports TTS, T2I, I2V, ASR and more"
     }
   },
   "skills": {}
